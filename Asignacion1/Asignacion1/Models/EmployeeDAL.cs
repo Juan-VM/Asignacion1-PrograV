@@ -1,15 +1,30 @@
 ﻿using Asignacion1.DatabaseHelper;
+using Microsoft.Data.SqlClient;
 using System.Data;
 
 namespace Asignacion1.Models
 {
     public static class EmployeeDAL
     {
-        public static List<EmployeeViewModel> GetEmployees()
+        public static List<EmployeeViewModel> GetEmployees(
+            string? name,
+            string? department,
+            string? jobTitle,
+            string? shift,
+            bool onlyActive)
         {
             List<EmployeeViewModel> list = new List<EmployeeViewModel>();
 
-            DataTable ds = DatabaseSql.executeStoredProcedure("[dbo].[uspGetEmployees]");
+            SqlParameter[] parameters =
+            {
+                new SqlParameter("@Name", string.IsNullOrWhiteSpace(name) ? DBNull.Value : name),
+                new SqlParameter("@Department", string.IsNullOrWhiteSpace(department) ? DBNull.Value : department),
+                new SqlParameter("@JobTitle", string.IsNullOrWhiteSpace(jobTitle) ? DBNull.Value : jobTitle),
+                new SqlParameter("@Shift", string.IsNullOrWhiteSpace(shift) ? DBNull.Value : shift),
+                new SqlParameter("@OnlyActive", onlyActive)
+            };
+
+            DataTable ds = DatabaseSql.executeStoredProcedure("[dbo].[uspGetEmployees]", parameters);
 
             if (ds != null)
             {

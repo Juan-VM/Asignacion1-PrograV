@@ -1,12 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|c:\\users\\juanv\\onedrive - castrocarazo\\castro carazo\\cuatrimestres\\7mo cuatrimestre\\progra v\\asignaciones\\asignacion1-prograv\\asignacion1\\asignacion1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|solutionrelative:asignacion1\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -14,24 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "Asignacion1\\Controllers\\EmployeeController.cs",
-              "ToolTip": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "Asignacion1\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-10T15:56:37.098Z",
-              "EditorCaption": ""
             }
           ]
         }

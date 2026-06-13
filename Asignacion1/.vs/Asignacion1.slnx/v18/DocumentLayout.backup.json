@@ -1,12 +1,75 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|c:\\users\\juanv\\onedrive - castrocarazo\\castro carazo\\cuatrimestres\\7mo cuatrimestre\\progra v\\asignaciones\\asignacion1-prograv\\asignacion1\\asignacion1\\models\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|solutionrelative:asignacion1\\models\\employeedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|c:\\users\\juanv\\onedrive - castrocarazo\\castro carazo\\cuatrimestres\\7mo cuatrimestre\\progra v\\asignaciones\\asignacion1-prograv\\asignacion1\\asignacion1\\databasehelper\\databasesql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|solutionrelative:asignacion1\\databasehelper\\databasesql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|c:\\users\\juanv\\onedrive - castrocarazo\\castro carazo\\cuatrimestres\\7mo cuatrimestre\\progra v\\asignaciones\\asignacion1-prograv\\asignacion1\\asignacion1\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8DD3E23E-6055-AB60-86A3-612888B20536}|Asignacion1\\Asignacion1.csproj|solutionrelative:asignacion1\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeDAL.cs",
+              "DocumentMoniker": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\Models\\EmployeeDAL.cs",
+              "RelativeDocumentMoniker": "Asignacion1\\Models\\EmployeeDAL.cs",
+              "ToolTip": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\Models\\EmployeeDAL.cs",
+              "RelativeToolTip": "Asignacion1\\Models\\EmployeeDAL.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAowC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:18:46.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseSql.cs",
+              "DocumentMoniker": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\DatabaseHelper\\DatabaseSql.cs",
+              "RelativeDocumentMoniker": "Asignacion1\\DatabaseHelper\\DatabaseSql.cs",
+              "ToolTip": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\DatabaseHelper\\DatabaseSql.cs",
+              "RelativeToolTip": "Asignacion1\\DatabaseHelper\\DatabaseSql.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T17:15:09.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "Asignacion1\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\juanv\\OneDrive - CastroCarazo\\CASTRO CARAZO\\CUATRIMESTRES\\7mo CUATRIMESTRE\\Progra V\\Asignaciones\\Asignacion1-PrograV\\Asignacion1\\Asignacion1\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "Asignacion1\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-13T17:13:02.954Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

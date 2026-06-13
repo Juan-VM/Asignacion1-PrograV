@@ -1,4 +1,4 @@
-﻿@model List<Asignacion1.Models.EmployeeViewModel>
+﻿@model EmployeePageViewModel
 
 @{
     ViewData["Title"] = "Employees";
@@ -16,8 +16,101 @@
         </p>
 
         <span class="badge bg-secondary px-3 py-2 fs-6">
-            Total Employees: @Model.Count()
+            Total Employees: @Model.Employees.Count()
         </span>
+    </div>
+
+    <div class="card shadow-sm mb-4">
+
+        <div class="card-header bg-light">
+            <strong>Search Filters</strong>
+        </div>
+
+        <div class="card-body">
+
+            <form method="get">
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+                        <label>Employee Name</label>
+
+                        <input type="text"
+                               name="name"
+                               value="@Model.Filters.Name"
+                               class="form-control" />
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label>Department</label>
+
+                        <input type="text"
+                               name="department"
+                               value="@Model.Filters.Department"
+                               class="form-control" />
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-6 mb-3">
+                        <label>Job Title</label>
+
+                        <input type="text"
+                               name="jobTitle"
+                               value="@Model.Filters.JobTitle"
+                               class="form-control" />
+                    </div>
+
+                    <div class="col-md-6 mb-3">
+                        <label>Shift</label>
+
+                        <input type="text"
+                               name="shift"
+                               value="@Model.Filters.Shift"
+                               class="form-control" />
+                    </div>
+
+                </div>
+
+                <div class="row align-items-center">
+
+                    <div class="col-md-6">
+
+                        <div class="form-check">
+
+                            <input class="form-check-input"
+                                   type="checkbox"
+                                   name="onlyActive"
+                                   value="true"
+                            @(Model.Filters.OnlyActive ? "checked" : "") />
+
+                            <label class="form-check-label">
+                                Only Active Employees
+                            </label>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-6 text-end">
+
+                        <button type="submit"
+                                class="btn btn-primary">
+
+                            Search
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </form>
+
+        </div>
+
     </div>
 
     <div class="card shadow border-0">
@@ -43,7 +136,7 @@
 
                     <tbody>
 
-                        @if (!Model.Any())
+                        @if (!Model.Employees.Any())
                         {
                             <tr>
                                 <td colspan="6" class="text-center py-4 text-muted">
@@ -53,7 +146,7 @@
                         }
                         else
                         {
-                            @foreach (var emp in Model)
+                            @foreach (var emp in Model.Employees)
                             {
                                 <tr>
                                     <td class="fw-bold text-secondary">

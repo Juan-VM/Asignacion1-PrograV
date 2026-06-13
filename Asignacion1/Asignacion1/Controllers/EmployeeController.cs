@@ -5,11 +5,30 @@ namespace Asignacion1.Controllers
 {
     public class EmployeeController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Index(
+            string? name,
+            string? department,
+            string? jobTitle,
+            string? shift,
+            bool onlyActive = false)
         {
-            List<EmployeeViewModel> list = EmployeeDAL.GetEmployees();
+            EmployeePageViewModel model = new EmployeePageViewModel();
 
-            return View(list);
+            model.Filters.Name = name;
+            model.Filters.Department = department;
+            model.Filters.JobTitle = jobTitle;
+            model.Filters.Shift = shift;
+            model.Filters.OnlyActive = onlyActive;
+
+            model.Employees = EmployeeDAL.GetEmployees(
+                    name,
+                    department,
+                    jobTitle,
+                    shift,
+                    onlyActive
+                );
+
+            return View(model);
         }
     }
 }

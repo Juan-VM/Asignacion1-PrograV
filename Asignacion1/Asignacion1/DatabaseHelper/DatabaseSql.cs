@@ -13,7 +13,7 @@ namespace Asignacion1.DatabaseHelper
             return conn;
         }
 
-        public static DataTable executeStoredProcedure(string sp)
+        public static DataTable executeStoredProcedure(string sp, SqlParameter[] parameters)
         {
             using (conn = new SqlConnection(connectionString))
             {
@@ -24,7 +24,10 @@ namespace Asignacion1.DatabaseHelper
                 cmd.CommandText = sp;
                 cmd.Connection = conn;
 
-                cmd.ExecuteNonQuery();
+                foreach (SqlParameter parameter in parameters)
+                {
+                    cmd.Parameters.Add(parameter);
+                }
 
                 SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
